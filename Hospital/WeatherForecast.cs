@@ -10,5 +10,6 @@ namespace Hospital
 
 		public string? Summary { get; set; }
 		public string? FromBranch2 { get; set; } = null;
+		public int FromBranch1 { get; set; }
 	}
 }
